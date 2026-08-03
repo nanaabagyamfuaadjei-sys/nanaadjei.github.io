@@ -3,58 +3,84 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nana Abagyamfua Adjei</title>
+<title>Nana Aba Gyamfua Adjei | Portfolio</title>
 
 <style>
-body{
+*{
     margin:0;
-    font-family:Arial, sans-serif;
-    background:#f4f7fc;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f8fc;
     color:#333;
 }
 
 header{
-    background:#0056b3;
+    background:linear-gradient(135deg,#0056b3,#0084ff);
     color:white;
     text-align:center;
-    padding:60px 20px;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    font-size:1.2rem;
+    margin-top:10px;
 }
 
 .container{
     max-width:1000px;
     margin:auto;
-    padding:20px;
+    padding:30px 20px;
 }
 
 .card{
     background:white;
+    margin-bottom:25px;
     padding:25px;
-    margin:20px 0;
-    border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
 }
 
 h2{
     color:#0056b3;
+    margin-bottom:15px;
 }
 
-ul{
-    padding-left:20px;
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:10px;
 }
 
-.footer{
+.skill{
+    background:#eef5ff;
+    padding:12px;
+    border-radius:8px;
     text-align:center;
-    padding:20px;
-    color:#666;
+    font-weight:bold;
 }
 
-.btn{
+.button{
     display:inline-block;
     background:#0056b3;
     color:white;
-    text-decoration:none;
     padding:12px 20px;
-    border-radius:5px;
+    text-decoration:none;
+    border-radius:6px;
+    margin-top:10px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#666;
 }
 </style>
 </head>
@@ -72,50 +98,56 @@ ul{
 <h2>About Me</h2>
 
 <p>
-I am a detail-oriented Health Informatics & Data Analytics Officer specializing in healthcare information systems,
-data analytics, reporting, auditing, and operational improvement. I enjoy using data to drive better decisions
-and improve organizational performance.
+I am a Health Information & Data Analytics Officer with experience in healthcare
+information systems, reporting, data analytics, auditing, and administrative support.
+I am passionate about transforming data into meaningful insights that improve
+decision-making and operational performance.
 </p>
+
 </div>
 
 <div class="card">
 <h2>Skills</h2>
-<ul>
-<li>SQL</li>
-<li>Python</li>
-<li>Power BI</li>
-<li>Microsoft Excel</li>
-<li>Data Analytics</li>
-<li>Healthcare Information Systems</li>
-<li>Reporting & Auditing</li>
-<li>Administrative Support</li>
-<li>Data Validation</li>
-</ul>
+
+<div class="skills">
+<div class="skill">SQL</div>
+<div class="skill">Python</div>
+<div class="skill">Power BI</div>
+<div class="skill">Microsoft Excel</div>
+<div class="skill">Data Analytics</div>
+<div class="skill">Healthcare Information Systems</div>
+<div class="skill">Reporting & Auditing</div>
+<div class="skill">Administrative Support</div>
+</div>
+
 </div>
 
 <div class="card">
 <h2>Professional Summary</h2>
 
 <p>
-Experienced in healthcare administration and data management with strong analytical,
-reporting, and problem-solving skills. Open to remote opportunities in Data Analytics,
-Administrative Support, Health Information Management, and Operations.
+Experienced professional with a background in Health Information Management,
+data quality assurance, reporting, and analytics. Seeking remote opportunities
+where I can apply analytical, technical, and problem-solving skills to help
+organizations make data-driven decisions.
 </p>
+
 </div>
 
 <div class="card">
 <h2>Contact</h2>
 
-<p>📧 nanaabagyamfuaadjei@gmail.com</p>
+<p><strong>Email:</strong> nanaabagyamfuaadjei@gmail.com</p>
 
-<p>🌍 Available for Remote Opportunities</p>
+<p><strong>Status:</strong> Available for Remote Opportunities</p>
+
 </div>
 
 </div>
 
-<div class="footer">
-© 2026 Nana Aba Gyamfua Adjei
-</div>
+<footer>
+© 2026 Nana Abagyamfua Adjei
+</footer>
 
 </body>
 </html>
